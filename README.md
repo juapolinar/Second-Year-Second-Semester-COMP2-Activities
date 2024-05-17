@@ -1,1 +1,1 @@
-# Second-Year-Second-Semester-COMP2-Activities
+For educational purposes only.

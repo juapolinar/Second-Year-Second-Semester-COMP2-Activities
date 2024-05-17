@@ -1,0 +1,16 @@
+#Random Decimal Number Activity 
+#Write a program that generates a 5 random decimal number between 1 and 100 with two decimal places of accuracy. Examples are 1.23, 3.45, 9.80, and 5.00. Compute the average of the numbers. 
+
+from random import uniform
+num1=uniform (1, 20) 
+num2=uniform (21, 40)
+num3=uniform (41, 60)
+num4=uniform (61, 80)
+num5=uniform (81, 100)
+print(round(num1, 2)) 
+print(round(num2, 2))
+print(round(num3, 2))
+print(round(num4, 2))
+print(round(num5, 2))
+ave = (num1+num2+num3+num4+num5) / 5
+print("The average of the five random decimal number is ", round(ave, 2), ".", sep="")
